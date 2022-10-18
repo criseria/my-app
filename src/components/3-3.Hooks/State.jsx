@@ -7,8 +7,8 @@ export default function State() {
     <div>
       Count: {count}
       <button onClick={() => setCount(initialCount)}>Reset</button>
-      <button onClick={() => setCount(prev => prev - 1)}>Reset</button>
-      <button onClick={() => setCount(prev => prev + 1)}>Reset</button>
+      <button onClick={() => setCount(prev => prev - 1)}>-</button>
+      <button onClick={() => setCount(prev => prev + 1)}>+</button>
     </div>
   )
 }
