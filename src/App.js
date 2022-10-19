@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Example from './components/3-10.Context/Example';
+import Example from './components/3-11.Portal/Example';
+// import Example from './components/3-10.Context/Example';
 // import Memo from './components/3-8.Memorization/Memo';
 // import Button from './components/3-7.HOC/Button';
 // import Input from './components/3-7.HOC/Input';
