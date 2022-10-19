@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Example from './components/3-11.Portal/Example';
+import Component from './components/3-14.PropTypes/Component';
+// import Example from './components/3-11.Portal/Example';
 // import Example from './components/3-10.Context/Example';
 // import Memo from './components/3-8.Memorization/Memo';
 // import Button from './components/3-7.HOC/Button';
@@ -22,7 +23,8 @@ import Example from './components/3-11.Portal/Example';
 function App() {
   return (
     <div className="App">
-      <Example />
+      <Component />
+      {/* <Example /> */}
       {/* <Memo /> */}
       {/* <Input />
       <br />
