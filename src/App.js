@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/3-7.HOC/Button';
-import Input from './components/3-7.HOC/Input';
+import Memo from './components/3-8.Memorization/Memo';
+// import Button from './components/3-7.HOC/Button';
+// import Input from './components/3-7.HOC/Input';
 // import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog'
 // import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 // import State from './components/3-3.Hooks/State';
@@ -19,10 +20,11 @@ import Input from './components/3-7.HOC/Input';
 function App() {
   return (
     <div className="App">
-      <Input />
+      <Memo />
+      {/* <Input />
       <br />
       <br />
-      <Button />
+      <Button /> */}
       {/* <ThankyouDialog /> */}
       {/* <Dialog /> */}
       {/* <Reducer />
