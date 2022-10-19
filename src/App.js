@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Memo from './components/3-8.Memorization/Memo';
+import Example from './components/3-10.Context/Example';
+// import Memo from './components/3-8.Memorization/Memo';
 // import Button from './components/3-7.HOC/Button';
 // import Input from './components/3-7.HOC/Input';
 // import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog'
@@ -20,7 +21,8 @@ import Memo from './components/3-8.Memorization/Memo';
 function App() {
   return (
     <div className="App">
-      <Memo />
+      <Example />
+      {/* <Memo /> */}
       {/* <Input />
       <br />
       <br />
